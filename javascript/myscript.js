@@ -48,7 +48,7 @@ theTime.add({
 	duration: 2000,
 	update: function(percent) {
 		var thePercent = Math.round(percent.progress);
-		document.querySelector('.container .sup').innerHTML= "Nhịp tim của Đại có chỉ số là " + (thePercent+899) ;
+		document.querySelector('.container .sup').innerHTML= "Nhịp tim của Tiến có chỉ số là " + (thePercent+899) ;
 	}
 });
 theTime.add({
@@ -188,5 +188,5 @@ getclickf.addEventListener('click', function(){
 var cantho =document.querySelector('.main');
 cantho.insertAdjacentHTML('afterend', '<div class="author mt-5"><div class="row"><div class="col-12"><div class="me text-danger text-right"></div></div></div></div>');
 
-document.querySelector('.Description .modal-title').innerHTML = '<i class="far fa-comment-alt"></i>&nbsp;Nhịp tim của anh như vậy là vì';
+document.querySelector('.Description .modal-title').innerHTML = '<i class="far fa-comment-alt"></i>&nbsp;Nhịp tim của Tiến như vậy là vì';
 document.querySelector('.Description .modal-body').innerHTML = ' Nó đang bơm máu đó , nào nào bây giờ hãy tắt bảng thông báo này , nhấp vào chữ [Click here] ở trên và làm theo hướng dẫn nhé Flabby Girl. <i class="fas fa-heart"></i> ';
