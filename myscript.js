@@ -188,5 +188,5 @@ getclickf.addEventListener('click', function(){
 var cantho =document.querySelector('.main');
 cantho.insertAdjacentHTML('afterend', '<div class="author mt-5"><div class="row"><div class="col-12"><div class="me text-danger text-right"></div></div></div></div>');
 
-document.querySelector('.Description .modal-title').innerHTML = '<i class="far fa-comment-alt"></i>&nbsp;Nhịp tim của Đại như vậy là vì';
-document.querySelector('.Description .modal-body').innerHTML = 'Là vì Vân nên tim Đại mới đập mạnh vậy đó lew lew. Nào bây giờ hãy tắt bảng thông báo này và nhấp vào chữ [Click here] ở trên và làm theo hướng dẫn nhé công chúa. <i class="fas fa-heart"></i> ';
+document.querySelector('.Description .modal-title').innerHTML = '<i class="far fa-comment-alt"></i>&nbsp;Nhịp tim của anh như vậy là vì';
+document.querySelector('.Description .modal-body').innerHTML = ' Nó đang bơm máu đó , nào nào bây giờ hãy tắt bảng thông báo này , nhấp vào chữ [Click here] ở trên và làm theo hướng dẫn nhé Flabby Girl. <i class="fas fa-heart"></i> ';
