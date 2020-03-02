@@ -1,5 +1,5 @@
 const yourDate = new Date("2019-09-19T00:00:00"),
-music = ['ido', 'noinaycoanh', 'nguoiamphu'];
+music = ['CryOnMyShoulder'];
 
 document.addEventListener('DOMContentLoaded', function(){
       var rootTime = document.querySelector("time");
